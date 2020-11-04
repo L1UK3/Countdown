@@ -51,11 +51,7 @@ class lettersRound:
 
         matchesSorted = sorted(matchesSorted, key=len, reverse=True)
         return matchesSorted
-
-
-
-# can this fucntion be made more efficient? 
-# do an investigation into it's efficiency using big O
+    
 
 def subString(string):
     # creates all sub strings for the string
